@@ -1,0 +1,259 @@
+#main-page {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black; 
+    color: white;
+    height: 100vh;
+}
+
+
+#left-section {
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 20px;
+    color: #ffffff;
+    
+    
+}
+
+
+#name {
+    margin: 0;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 70px;
+    color: white;
+
+}
+
+h3 {
+    margin: 10px 0;
+    color: #bdc3c7; 
+}
+
+
+
+#main-photo {
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
+    margin-bottom: 10px;
+}
+
+
+#symbol-photo {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    
+}
+
+footer {
+ 
+    text-align: center;
+    margin-top: 0;
+    background-color: #333;
+    padding: 5px;
+  
+}
+
+footer img {
+    margin: 0 10px;
+    border-radius: 100%;
+    background-color: #333;
+   
+}
+
+
+
+
+#buttons {
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 3px solid white; 
+    margin-top: 0;
+    margin: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#buttons:hover {
+    background-color: white; 
+    color: black; 
+}
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+}
+
+
+#right-section {
+    padding: 20px;
+    background-color: #111;
+    border: 2px solid #1a1a1a;
+   
+}
+
+
+@keyframes textIn {
+
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+#statement {
+    color: #ddd;
+    opacity: 0;
+    animation: textIn 5s ease-out forwards ;
+}
+
+
+
+/* Resume.html Styling */
+
+
+#Resume-body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;
+    color: white;   
+
+}
+
+#header {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid plum;
+    margin-bottom: 0;
+        
+}
+
+#grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    border: 3px solid #333;
+    margin: 50px;
+    padding: 20px;    
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+
+#grid-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+
+@keyframes line {
+    0% {
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+    50% {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    100%{
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+}
+
+#heading-line {
+    border-bottom: 2px solid lightpink;
+    animation-name: line;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 0;
+}
+
+
+/* About.html styling */
+
+#grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    border: 3px solid #333;
+    margin: 20px;
+    padding: 20px;
+}
+
+#about-body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black; 
+    color: white;
+    height: 100vh;
+}
+
+header {
+    border-right: 2px solid #333;
+    padding-right: 20px;
+}
+
+div {
+    padding-left: 20px;
+}
+
+h2, h3 {
+    color: #bdc3c7;
+}
+
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+#home-link {
+
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#home-link a {
+    text-decoration: none;
+    color: #007bff; /* Blue color, you can change it to match your design */
+    font-weight: bold;
+}
+#home-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
